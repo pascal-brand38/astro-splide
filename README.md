@@ -13,6 +13,17 @@
   [Demo](https://pascal-brand38.github.io/astro-dev/packages/astro-splide)
 </div>
 
+<br>
+<br>
+
+[![NPM Version](https://img.shields.io/npm/v/astro-splide.svg)](https://npmjs.com/package/astro-splide)
+[![NPM Downloads](https://img.shields.io/npm/dm/astro-splide.svg)](https://npmjs.com/package/astro-splide)
+[![NPM Type Definitions](https://img.shields.io/npm/types/astro-splide)](https://npmjs.com/package/astro-splide)
+[![NPM Last Update](https://img.shields.io/npm/last-update/astro-splide)](https://npmjs.com/package/astro-splide)
+[![Who is using it](https://img.shields.io/badge/Who%20is%20using%20it-Green)](https://github.com/search?q=%22astro-splide%22+path%3Apackage.json+NOT+owner%3Apascal-brand38+&type=code)
+
+<br>
+
 # Installation
 Get the latest version from NPM:
 ```
