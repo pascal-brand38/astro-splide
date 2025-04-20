@@ -38,7 +38,7 @@ $ npm install astro-splide @splidejs/splide
 Import Splide and SplideSlide components in frontmatter:
 
 ```jsx
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideSlide } from 'astro-splide';
 ```
 
 ...and render them like this:
@@ -64,14 +64,14 @@ Select a CSS file you want to use in frontmatter, and import it:
 
 ```jsx
 // Default theme
-import '@splidejs/react-splide/css';
+import '@splidejs/splide/css';
 
 // or other themes
-import '@splidejs/react-splide/css/skyblue';
-import '@splidejs/react-splide/css/sea-green';
+import '@splidejs/splide/css/skyblue';
+import '@splidejs/splide/css/sea-green';
 
 // or only core styles
-import '@splidejs/react-splide/css/core';
+import '@splidejs/splide/css/core';
 ```
 
 # Custom Structure
@@ -79,7 +79,7 @@ Although ```<Splide>``` renders a track element by default, you can handle them 
 
 ```jsx
 ---
-import { Splide, SplideTrack, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideTrack, SplideSlide } from 'astro-splide';
 ---
 <Splide>
   <SplideSlide>...</SplideSlide>
