@@ -1,6 +1,6 @@
 {
   "name": "astro-splide",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "The Astro component for Splide dedicated to slides / carousel / photo swiper.",
   "type": "module",
   "scripts": {
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/pascal-brand38/astro-splide/issues"
   },
-  "homepage": "https://github.com/pascal-brand38/astro-splide/tree/main#readme",
+  "homepage": "https://pascal-brand38.github.io/astro-dev/packages/astro-splide",
   "devDependencies": {
     "@types/node": "^22.7.7",
     "astro": "^4.16.7",
@@ -47,7 +47,18 @@
     "astro-component",
     "splide",
     "splidejs",
-    "@splidejs/splide"
+    "@splidejs/splide",
+    "carousel",
+    "swipe",
+    "swiper",
+    "slide",
+    "slider",
+    "slideshow",
+    "gallery",
+    "simple",
+    "lightweight",
+    "touch",
+    "responsive"
   ],
   "dependencies": {
     "@splidejs/splide": "^4.1.4"
