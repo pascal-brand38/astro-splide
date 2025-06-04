@@ -37,6 +37,37 @@ $ npm install astro-splide @splidejs/splide
 
 # Usage
 
+## Simple Example
+
+Here is the astro code of a loop carousel, of 3 pictures, with 1 second interval.
+
+```jsx
+---
+import "@splidejs/splide/css"
+import { Splide, SplideSlide } from 'astro-splide';
+---
+<Splide
+  class='not-content'
+  options={ {  // check for options at https://splidejs.com/guides/options/
+    type: 'loop',         // type of the carousel
+    autoplay: true,       // activate autoplay
+    interval: 1000,       // autoplay interval in milliseconds
+    pauseOnHover: false,  // do not pause autoplay on mouseover
+  } }
+>
+  <SplideSlide>
+    <img src='https://picsum.photos/1024/512?nb=1' alt=''/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='https://picsum.photos/1024/512?nb=2' alt=''/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src='https://picsum.photos/1024/512?nb=3' alt=''/>
+  </SplideSlide>
+</Splide>
+```
+
+
 ## Components
 
 Import Splide and SplideSlide components in frontmatter:
