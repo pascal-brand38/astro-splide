@@ -12,6 +12,10 @@
   </p>
 
   [Demo](https://pascal-brand38.github.io/astro-dev/packages/astro-splide)
+
+  <a href="https://pascal-brand38.github.io/astro-dev/packages/astro-splide" target="_blank">
+    <img src="images/animation.gif">
+  </a>
 </div>
 
 <br>
