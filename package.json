@@ -1,6 +1,6 @@
 {
   "name": "astro-splide",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "The Astro component for Splide dedicated to slides / carousel / photo swiper.",
   "type": "module",
   "scripts": {
