@@ -21,6 +21,7 @@
 <br>
 <br>
 
+
 [![NPM Version](https://img.shields.io/npm/v/astro-splide.svg)](https://npmjs.com/package/astro-splide)
 [![NPM Downloads](https://img.shields.io/npm/dm/astro-splide.svg)](https://npmjs.com/package/astro-splide)
 [![NPM Type Definitions](https://img.shields.io/npm/types/astro-splide)](https://npmjs.com/package/astro-splide)
