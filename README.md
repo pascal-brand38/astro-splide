@@ -22,14 +22,6 @@
 <br>
 
 
-[![NPM Version](https://img.shields.io/npm/v/astro-splide.svg)](https://npmjs.com/package/astro-splide)
-[![NPM Downloads](https://img.shields.io/npm/dm/astro-splide.svg)](https://npmjs.com/package/astro-splide)
-[![NPM Type Definitions](https://img.shields.io/npm/types/astro-splide)](https://npmjs.com/package/astro-splide)
-[![NPM Last Update](https://img.shields.io/npm/last-update/astro-splide)](https://npmjs.com/package/astro-splide)
-[![Who is using it](https://img.shields.io/badge/Who%20is%20using%20it-Green)](https://github.com/search?q=%22astro-splide%22+path%3Apackage.json+NOT+owner%3Apascal-brand38+&type=code)
-
-<br>
-
 # Installation
 Get the latest version from NPM:
 ```
@@ -324,15 +316,9 @@ import { Splide, SplideSlide } from 'astro-splide';
 </Splide>
 ```
 
-You can see working examples in [this page](https://pascal-brand38.github.io/astro-dev/packages/astro-splide) and their sources here:
-
-* [Basic](https://github.com/pascal-brand38/astro-splide/tree/main/examples/components/BasicExample.astro):
-  * 2 slides per page on large screen and a single
-	slide on screen smaller than 640px. It makes use of breakpoint options as
-	described in [splidejs documentation](https://splidejs.com/guides/options/#breakpoints),
-  * and log on the console on slide changes.
-* [Autoplay](https://github.com/pascal-brand38/astro-splide/tree/main/examples/components/AutoplayExample.astro): play and pause button
-* [Extension](https://github.com/pascal-brand38/astro-splide/tree/main/examples/components/ExtensionExample.astro): using [@splidejs/splide-extension-auto-scroll](https://splidejs.com/extensions/auto-scroll) extension
+You can see working examples in [this page](https://pascal-brand38.github.io/astro-dev/packages/astro-splide).
+This points to the
+[example source files](https://github.com/pascal-brand38/astro-dev/tree/main/src/content/docs/packages/astro-splide)
 
 
 # Support Splide
