@@ -42,21 +42,8 @@
     "src/**"
   ],
   "keywords": [
-    "withastro",
-    "astro-component",
-    "splide",
-    "splidejs",
-    "@splidejs/splide",
-    "carousel",
-    "swipe",
-    "swiper",
-    "slide",
-    "slider",
-    "slideshow",
-    "gallery",
-    "simple",
-    "lightweight",
-    "touch",
-    "responsive"
+    "withastro", "astro-component", "image",
+    "splide", "splidejs", "@splidejs/splide",
+    "carousel", "swipe", "swiper", "slide", "slider", "slideshow", "gallery", "lightweight", "touch", "responsive"
   ]
 }
