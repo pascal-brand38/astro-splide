@@ -15,7 +15,6 @@ interface SplideHtmlAttributes extends
   options?: Options;
   hasTrack?: boolean;
   tag?: 'div' | 'section' | 'header' | 'footer' | 'nav';
-  toto?:boolean;
 }
 
 type Props = SplideHtmlAttributes
@@ -44,3 +43,4 @@ const splideId = 'astro-splide-' + Math.random().toString(36).slice(2, 11)
   import { initSplide } from "astro-splide/js/splideExtensionUtils"
   initSplide()
 </script>
+
