@@ -23,9 +23,9 @@ type Props = SplideHtmlAttributes
 const {
   class: className = "",   // the class to add to "splide"
   id: idName = "",
-  tag: Root ="div",
-  options={},
-  hasTrack=true,
+  tag: Root = "div",
+  options = {},
+  hasTrack = true,
   ...props      // the other props, which are SplideHtmlAttributes, such as aria-label,... but not class and id as already get
 } = Astro.props;
 
@@ -34,7 +34,7 @@ const splideId = 'astro-splide-' + Math.random().toString(36).slice(2, 11)
 ---
 
 <astro-splide data-splideid={splideId} data-options={JSON.stringify(options)} >
-  <Root id={splideId + idName} class={'splide ' + className} {...props}>
+  <Root id={splideId + idName} class:list={['splide', className]} {...props}>
     { hasTrack  &&  (<SplideTrack> <slot /> </SplideTrack>) }
     { !hasTrack &&  (<slot />) }
   </Root>

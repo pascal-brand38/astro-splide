@@ -6,12 +6,12 @@ import type { HTMLAttributes } from 'astro/types';
 type Props = HTMLAttributes<"div">
 
 const {
-  class: className ="",   // the class to add to "splide"
+  class: className = "",   // the class to add to "splide"
   ...props      // the other props, such as aria-label,... but not class as already get
 } = Astro.props;
 
 ---
-<div class={"splide__track " + className} {...props}>
+<div class:list={['splide__track', className]} {...props}>
   <ul class="splide__list">
     <slot />
   </ul>
