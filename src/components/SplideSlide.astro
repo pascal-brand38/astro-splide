@@ -11,6 +11,6 @@ const {
 } = Astro.props;
 
 ---
-<li class={"splide__slide " + className} {...props}>
+<li class:list={['splide__slide', className]} {...props}>
   <slot />
 </li>
