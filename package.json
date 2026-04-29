@@ -1,6 +1,6 @@
 {
   "name": "astro-splide",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "The Astro component for Splide dedicated to slides / carousel / photo swiper.",
   "type": "module",
   "scripts": {
@@ -41,8 +41,21 @@
     "src/**"
   ],
   "keywords": [
-    "withastro", "astro-component", "image",
-    "splide", "splidejs", "@splidejs/splide",
-    "carousel", "swipe", "swiper", "slide", "slider", "slideshow", "gallery", "lightweight", "touch", "responsive"
+    "withastro",
+    "astro-component",
+    "image",
+    "splide",
+    "splidejs",
+    "@splidejs/splide",
+    "carousel",
+    "swipe",
+    "swiper",
+    "slide",
+    "slider",
+    "slideshow",
+    "gallery",
+    "lightweight",
+    "touch",
+    "responsive"
   ]
 }
