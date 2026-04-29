@@ -26,19 +26,18 @@
   },
   "exports": {
     ".": {
-      "types": [
-        "./src/index.d.ts",
-        "./src/components.d.ts"
-      ],
-      "default": "./src/index.ts"
+      "types": "./index.ts",
+      "default": "./index.ts"
     },
-   "./js/splideExtensionUtils": {
-     "types": "./src/js/splideExtensionUtils.d.ts",
-     "import": "./src/js/splideExtensionUtils.js"
-   }
+    "./splide": "./splide.ts",
+    "./js/splideExtensionUtils": {
+      "types": "./src/js/splideExtensionUtils.d.ts",
+      "import": "./src/js/splideExtensionUtils.js"
+    }
   },
   "files": [
     "index.ts",
+    "splide.ts",
     "src/**"
   ],
   "keywords": [
