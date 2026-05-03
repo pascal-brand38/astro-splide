@@ -35,7 +35,7 @@ export function initSplideExtension(extension: any) {
     }
   }
 
-  customElements.define("astro-splide-extension", AstroSplideExtension);
+  customElements.get('astro-splide-extension') || customElements.define("astro-splide-extension", AstroSplideExtension);
 }
 
 export function initSplide() {
@@ -47,5 +47,5 @@ export function initSplide() {
     }
   }
 
-  customElements.define("astro-splide", AstroSplide);
+  customElements.get('astro-splide') || customElements.define("astro-splide", AstroSplide);
 }
